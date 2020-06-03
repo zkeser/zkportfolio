@@ -50,7 +50,7 @@
     <div class="portfolio-item-individual">
       <p>A proto-type read-only web application for a photobooth company to host client photos taken at events for view/download.</p>
       <a href="https://master.d1larrkwj692yc.amplifyapp.com/login"><img src="img/Screen Shot 2020-06-02 at 10.47.46 AM.png" alt="demo site"></a>
-      <p>The entire project is developed and hosted on AWS Amplify. The code is pushed to CodeCommit where the code is automatically build, verified, and deployed. </p>
+      <p>The frontend of this project uses React.js and the back-end is hosted on AWS. The code is pushed to CodeCommit where the code is automatically build, verified, and deployed to AWS Amplify. </p>
       <p>Authenitcation is handled by AWS Cognito to register, log in, reset password, and log out. Validation tokens are utilized for extra measure of security. </p>
       <p>Once a user is created, the Federation Identity ID is sent to the website owner, via Lambda to SES, to create the private S3 folder for that account.</p>
       <p>All images stored on S3 are isolated from other users and are individually downloadable, as per IAM permissions. The entire folder is also downloadable as a .zip file.</p>
