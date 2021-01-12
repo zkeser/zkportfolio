@@ -269,7 +269,7 @@ h3{font-size: var(--fs-h3);}
     text-align: right;
     position: relative;
     left: -1.5em;
-    width: calc(100% + 3em);
+    width: calc(100% + 4em);
 }
 }
 
@@ -354,16 +354,21 @@ h3{font-size: var(--fs-h3);}
 }
 
 /* cert png */
-.cert_png{
-  display:grid;
-  justify-items: center;
-  margin-top: 20px;
+.png_row{
+  width: 100%;
+  margin-left: 5rem;
 }
-.cert_png img{
+.png_row > div{
+  height: 150px;
+  width: 100px;
+  display: inline-block;
+  margin: 5rem;
+}
+.png_col img{
   max-width: 200px;
-  /* margin-left: 4rem; */
-  
+  margin-right: 38rem;
 }
+
  /* my work */
 .my-work{
   background-color: var(--clr-dark);
